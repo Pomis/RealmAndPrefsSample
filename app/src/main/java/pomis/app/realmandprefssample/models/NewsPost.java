@@ -8,10 +8,10 @@ import io.realm.RealmObject;
 
 public class NewsPost extends RealmObject {
 
-    String title;
-    String text;
-    String author;
-    int number;
+    public String title;
+    public String text;
+    public String author;
+    public int number;
 
     public NewsPost(String title, String text, String author, int number) {
         this.title = title;
